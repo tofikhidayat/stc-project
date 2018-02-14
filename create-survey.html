@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="asset/css/main.style.css">
+	<link rel="icon" type="img/png" href="asset/img/icon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css" />
+	<title>stc company || survey</title>
+</head>
+<body>
+
+
+	<div class="container start-action ">
+
+
+
+
+		<div class="row ov-h  main-content p-10 py-0 px-0">
+
+
+
+
+
+
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 button-content m-0 p-0">
+
+				<div class="icon w-100-p ov-h py-10 logo">
+					<img src="asset/img/Saudi-Telecom-Group-logo-1024x768.png" alt="" class="w-100-p">
+				</div>
+				
+
+				<div class="create-survey pt-20 w-100-p p-0">
+						<div class="container-fluid">
+					<button type="button" class="btn btn-violet-outline br-3 w-100-p ov-h fs-14 c-violet">Create survey</button>
+						</div>
+				</div>
+
+				<div class="logout pt-10 w-100-p logout-alpha">
+					<div class="container-fluid">
+					<button type="button" class="w-100-p btn btn-violet c-white br-3 fs-14 logout-button">Logout</button>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bs-bb right-action  main-content-right">
+				<div class="survey-id container-fluid py-10">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12  result">
+							<span class="fs-16 c-violet">Survey Id</span>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+							<input type="text" name="" class="w-100-p br-3 border-0 p-6 c-black" disabled="" value="disabled an contain unique survey id by server">
+						</div>
+						</div>
+					</div>
+
+
+
+
+					<div class="py-20 py-5 px-10 ov-h">
+						<div class="border-space"></div>
+					</div>
+
+
+					<div class="container-fluid py-10">
+						<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 result">
+							<span class="fs-16 c-black">Survey Name</span>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-100 col-xs-12 py-5">
+							<input type="text" name="" class="w-100-p br-3 p-6 input_data ">
+						</div>
+					</div>
+					</div>
+
+
+					<div class="survey-type py-20">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-2 col-md-2 colsm-2 col-xs-12 py-5">
+									<span class="fs-16 c-black">Survey Type</span>
+								</div>
+								<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+									<div class="w-100-p" style="float: none; clear: both;">
+											<label class="input-radio pull-left"  id="radio-action-3">
+											<input type="radio" name="type" id="" class="input" >
+												<span class="radio-active radio" >
+													<strong></strong>
+												</span>
+											</label>
+											<div class="pull-left px-10">
+												<span class="fs-16 c-black">Anonimous</span>
+											</div>
+									</div>
+
+
+									<div class="w-100-p " style="float: none; clear: both;">
+											<label class="input-radio pull-left"  id="radio-action-3">
+											<input type="radio" name="type" id="" class="input  " >
+												<span class="radio-active radio" >
+													<strong></strong>
+												</span>
+											</label>
+											<div class="pull-left px-10">
+												<span class="fs-16 c-black">Visible Result</span>
+											</div>
+									</div>
+
+
+
+								</div>
+
+
+								<div class="py-20 py-5 px-10 ov-h">
+									<div class="border-space"></div>
+								</div>
+
+
+
+
+								<div class="container-fluid survey-time py-20">
+									<div class="row">
+										<div class="col-lg-2 col-md-2 colsm-2 col-xs-12 result">
+									<span class="fs-16 c-black">Survey Time</span>
+								</div>
+										<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+											<div class="w-100-p	">
+												<div class="limited row">
+														<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" style="clear: both;">
+																<label class="input-radio pull-left"  id="radio-action-3">
+															<input type="radio" name="time" id="limited" class="time-line" checked="" >
+																<span class="radio-active radio" >
+																	<strong></strong>
+																</span>
+															</label>
+
+															<div class="px-10 pull-left">
+																<span class="fs-16 c-black">Limited</span>
+															</div>
+
+														</div>	
+														<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+															<div class="action-time pb-10">
+																<div class="start-time px-10">
+
+																	<!--this for starting time-->
+																	<input type="text" name="starting" id="start-date" class=" times border-0 bg-white p-3 br-3" style="width: 130px">
+																</div>
+
+																<div class="px-10 py-5 ket">
+																	<span class="fs-14">to</span>
+																</div>
+																<div class=" endded-time px-10">
+																	<!--this for end time-->
+																	<input type="text" name="end" id="end-date" class=" times border-0 bg-white p-3 br-3" style="width: 130px">
+																</div>
+
+															</div>
+
+
+														</div>
+
+														<div class="endded" style="clear: both;">
+														<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" style="clear: both;">
+																<label class="input-radio pull-left"  id="radio-action-3">
+															<input type="radio" name="time" id="not-limited" class="time-line" >
+																<span class="radio-active radio" >
+																	<strong></strong>
+																</span>
+															</label>
+
+															<div class="px-10 pull-left">
+																<span class="fs-16 c-black">Open ended</span>
+															</div>
+
+														</div>	
+
+														</div>
+
+												</div>
+
+
+											</div>
+
+
+
+
+
+
+
+
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+
+			<div class="survey-creator container-fluid py-20">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 result">
+						<span class="text-left fs-16 c-black">Survey Creator</span>
+					</div>
+
+					<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+						<div class="">
+							<div class="tex-search bg-white">
+							<div class="w-100-p px-10 py-5">
+								<span class="fs-14 c-black text-center w-100-p left-0 right-0 bg-white h-25" style="margin: 0 auto;">Auto complete searchable field where the actor can chose only one survey creator</span>
+							</div>
+							<div class="border-space w-100-p"></div>
+							<div class="textarea w-100-p">
+								<textarea class="w-100-p input_data-1  border-0" rows="5"></textarea>
+							</div>
+							
+						</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+
+
+			<div class="submit-form container-fluid py-20">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 result">
+						<span class="text-left fs-16 c-black">Result Visible to survey creator</span>
+					</div>
+
+					<div class="col-lg-10 col-md-10 col-sm-10 colxs-12">
+						<label class="input-radio pull-left"  id="radio-action-3">
+											<input type="radio" name="send" id="" class="input" >
+												<span class="radio-active radio" >
+													<strong></strong>
+												</span>
+											</label>
+							<div class="pull-left px-20">
+							<span class="fs-16 c-black">yes</span>
+							</div>
+
+
+
+							<label class="input-radio pull-left"  id="radio-action-3">
+											<input type="radio" name="send" id="" class="input" >
+												<span class="radio-active radio" >
+													<strong></strong>
+												</span>
+											</label>
+							<div class="pull-left px-20">
+							<span class="fs-16 c-black">no</span>
+							</div>
+
+							<div class="pull-right">
+								<button type="button" class="px-30  py-5 btn btn-violet fs-16 br-3 c-white" id="submit-to-survey">submit</button>
+							</div>
+
+					</div>
+
+					
+				</div>
+			</div>
+
+
+			<div class="logout pt-10 w-100-p logout-beta py-20">
+					<div class="container-fluid">
+						<button type="button" class="w-100-p btn btn-violet c-white br-3 fs-14 logout-button">Logout</button>
+					</div>
+				</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="asset/js/jquery.min.js"></script>
+<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="asset/js/action.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+<script src="http://cdn.craig.is/js/rainbow-custom.min.js"></script>
+
+<script>
+	  $(document).ready(function() {
+        	$.datetimepicker.setLocale('en');
+       	$('#start-date').datetimepicker();
+       	$('#end-date').datetimepicker();
+
+      });
+</script>
+</html>
