@@ -22,7 +22,7 @@
 /*-------------internal link-----------*/
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.min.css);
-html , body
+html , body 
 {
   font-family: 'Open Sans', sans-serif;
 }
